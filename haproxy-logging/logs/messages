@@ -33,3 +33,6 @@ Apr 26 13:01:37 1fb9030f722b syslog-ng[1]: syslog-ng shutting down; version='4.8
 Apr 26 13:01:39 73db81b7eca6 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
 Apr 26 13:11:39 73db81b7eca6 syslog-ng[1]: Log statistics; processed='source(s_network)=0', connections='src.syslog(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:6514)))=0', processed='global(msg_clones)=0', dropped='global(internal_source)=0', processed='global(internal_source)=1', queued='global(internal_source)=0', processed='destination(d_local)=2', connections='src.syslog(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:601)))=0', queued='global(scratch_buffers_count)=0', processed='center(queued)=2', connections='src.network(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:514)))=0', processed='src.internal(s_local#0)=1', stamp='src.internal(s_local#0)=1745672499', processed='source(s_local)=1', processed='global(sdata_updates)=0', processed='global(payload_reallocs)=0', processed='center(received)=1', queued='global(scratch_buffers_bytes)=0'
 Apr 26 13:12:24 73db81b7eca6 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 14:39:25 146b26925b69 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 14:41:02 146b26925b69 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 14:41:04 730bf3cd839e syslog-ng[1]: syslog-ng starting up; version='4.8.0'
