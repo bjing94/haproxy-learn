@@ -1,0 +1,62 @@
+HTTP/1.1 403 Forbidden
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>429 Too Many Requests</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h1 {
+        font-size: 3rem;
+        color: #dc3545;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>429</h1>
+      <p>Too Many Requests</p>
+      <p>
+        You have sent too many requests in a given amount of time. Please try
+        again later.
+      </p>
+      <p><a href="/">Go Back to Home</a></p>
+    </div>
+  </body>
+</html>
