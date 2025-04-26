@@ -1,0 +1,13 @@
+services:
+  haproxy:
+    image: haproxy:3.2-dev12-alpine
+    volumes:
+      - ./config/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    ports:
+      - 8080:8080
+  nginx-1:
+    image: nginx:1.27.5-alpine
+  nginx-2:
+    image: nginx:1.27.5-alpine
+  nginx-3:
+    image: nginx:1.27.5-alpine

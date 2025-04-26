@@ -1,0 +1,35 @@
+Apr 26 12:45:02 0b3a939e4a5d syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 12:47:26 0b3a939e4a5d syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 12:47:28 7899b4f271af syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 12:47:33 haproxy-logging-haproxy-1 haproxy[8]: Connect from 192.168.65.1:35290 to 192.168.16.5:8080 (frontend/HTTP)
+Apr 26 12:47:34 haproxy-logging-haproxy-1 haproxy[8]: Connect from 192.168.65.1:35290 to 192.168.16.5:8080 (frontend/HTTP)
+Apr 26 12:47:35 haproxy-logging-haproxy-1 haproxy[8]: Connect from 192.168.65.1:35290 to 192.168.16.5:8080 (frontend/HTTP)
+Apr 26 12:49:03 7899b4f271af syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 12:49:03 haproxy-logging-haproxy-1 haproxy[8]: Proxy frontend stopped (cumulated conns: FE: 1, BE: 0).
+Apr 26 12:49:03 haproxy-logging-haproxy-1 haproxy[8]: Proxy backend stopped (cumulated conns: FE: 0, BE: 3).
+Apr 26 12:49:05 9ad9a4e494ea syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 12:49:06 haproxy-logging-haproxy-1 haproxy[8]: Connect from 192.168.65.1:35587 to 192.168.32.5:8080 (frontend/HTTP)
+Apr 26 12:49:07 haproxy-logging-haproxy-1 haproxy[8]: Connect from 192.168.65.1:35587 to 192.168.32.5:8080 (frontend/HTTP)
+Apr 26 12:49:59 haproxy-logging-haproxy-1 haproxy[8]: Proxy frontend stopped (cumulated conns: FE: 1, BE: 0).
+Apr 26 12:49:59 haproxy-logging-haproxy-1 haproxy[8]: Proxy backend stopped (cumulated conns: FE: 0, BE: 2).
+Apr 26 12:50:05 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:35707 [26/Apr/2025:12:50:05.240] frontend backend/nginx1 0/0/1/0/1 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:50:05 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:35707 [26/Apr/2025:12:50:05.702] frontend backend/nginx2 0/0/1/1/2 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:53:45 9ad9a4e494ea syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 12:53:45 haproxy-logging-haproxy-1 haproxy[8]: Proxy frontend stopped (cumulated conns: FE: 1, BE: 0).
+Apr 26 12:53:45 haproxy-logging-haproxy-1 haproxy[8]: Proxy backend stopped (cumulated conns: FE: 0, BE: 2).
+Apr 26 12:53:47 60cfd0b19705 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 12:53:52 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:36255 [26/Apr/2025:12:53:52.986] frontend backend/nginx1 0/0/1/0/1 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:53:57 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:36255 [26/Apr/2025:12:53:57.227] frontend backend/nginx2 0/0/1/0/1 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:53:57 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:36255 [26/Apr/2025:12:53:57.843] frontend backend/nginx3 0/0/1/0/1 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:53:58 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:36255 [26/Apr/2025:12:53:58.510] frontend backend/nginx1 0/0/0/1/1 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:53:59 haproxy-logging-haproxy-1 haproxy[8]: 192.168.65.1:36255 [26/Apr/2025:12:53:59.067] frontend backend/nginx2 0/0/0/0/0 200 816 - - ---- 1/1/0/0/0 0/0 "GET / HTTP/1.1"
+Apr 26 12:54:13 haproxy-logging-haproxy-1 haproxy[8]: Proxy frontend stopped (cumulated conns: FE: 1, BE: 0).
+Apr 26 12:54:13 haproxy-logging-haproxy-1 haproxy[8]: Proxy backend stopped (cumulated conns: FE: 0, BE: 5).
+Apr 26 12:54:13 60cfd0b19705 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 12:54:14 ce79a4957375 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 13:01:26 ce79a4957375 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 13:01:28 1fb9030f722b syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 13:01:37 1fb9030f722b syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 26 13:01:39 73db81b7eca6 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 26 13:11:39 73db81b7eca6 syslog-ng[1]: Log statistics; processed='source(s_network)=0', connections='src.syslog(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:6514)))=0', processed='global(msg_clones)=0', dropped='global(internal_source)=0', processed='global(internal_source)=1', queued='global(internal_source)=0', processed='destination(d_local)=2', connections='src.syslog(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:601)))=0', queued='global(scratch_buffers_count)=0', processed='center(queued)=2', connections='src.network(s_network,afsocket_sd.(stream,AF_INET(0.0.0.0:514)))=0', processed='src.internal(s_local#0)=1', stamp='src.internal(s_local#0)=1745672499', processed='source(s_local)=1', processed='global(sdata_updates)=0', processed='global(payload_reallocs)=0', processed='center(received)=1', queued='global(scratch_buffers_bytes)=0'
+Apr 26 13:12:24 73db81b7eca6 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
